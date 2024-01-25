@@ -1,0 +1,14 @@
+#container {
+    background: darkslategray;
+    position: relative;
+    height: 600px;
+    width: 600px;
+}
+
+#box {
+    background: darkblue;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
