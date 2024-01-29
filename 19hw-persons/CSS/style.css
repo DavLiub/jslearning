@@ -1,0 +1,100 @@
+body {
+    background: darkgrey;
+}
+
+.flex-container{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.flex-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+#regForm {
+    order: 1;
+    background: burlywood;
+    padding: 10px;
+    width: 220px;
+    border-radius: 20px;
+    transition: max-width 0.3s ease;
+}
+
+#statsForm {
+    order: 3;
+    background: cornsilk;
+    padding: 10px;
+    visibility: visible;
+    border-radius: 20px;
+    width: 150px;
+    height: 383px;
+}
+
+#listForm {
+    order: 2;
+    background: mediumaquamarine;
+    padding: 10px;
+    justify-content: flex-start;
+    min-width: 500px;
+    min-height: 383px;
+    max-width: 100%;
+    border-radius: 20px;
+    align-items: flex-start;
+}
+
+
+#personsList {
+    text-align: left;
+}
+
+.del {
+    color: red;
+    margin-left: 20px;
+}
+
+#buttonUpdate {
+    background: #dedede;
+    border-radius: 10px;
+    padding: 10px;
+    height: fit-content;
+    text-align: center;
+    width: fit-content;
+    border: darkgrey 1px solid;
+    : 200px;
+}
+
+#showButton {
+    cursor: pointer;
+}
+label {
+    width: 100px;
+}
+
+input {
+    width: 200px;
+}
+
+#nameForm {
+    width: fit-content;
+}
+
+.error {
+    color: red;
+    font-family: "Times New Roman";
+    font-size: 12px;
+    margin: -4px 0;
+}
+
+.highlight {
+    border: 1px solid red;
+}
+

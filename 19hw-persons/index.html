@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Persons</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="utils.js" defer></script>
+    <script src="person.js" defer></script>
+</head>
+<body>
+    <div class="flex-container">
+       <div class="flex-box" id="regForm">
+           <form>
+               <p><button id="showButton" onclick="toggleForm()"><</button></p>
+               <h3>Register form</h3>
+               <p><label>ID:
+                   <input type="text" id="personId" placeholder="1F46" required>
+               </label></p>
+               <p><label>First name:
+                   <input type="text" id="firstName" placeholder="Jhon" required>
+               </label></p>
+               <p><label>Last name:
+                   <input type="text" id="lastName" placeholder="Smith" required>
+               </label></p>
+               <p><label>Birthday:
+                   <input type="date" id="age" placeholder="" required>
+               </label></p>
+           </form>
+           <p>
+               <button id="addPerson">Add person</button>
+               <button id="calcStats">Get stats</button>
+           </p>
+        </div>
+       <div class="flex-box" id="statsForm">
+            <h2>Stats:</h2>
+            <div id="statsInfo">
+            </div>
+            <div id="buttonUpdate"><img src="images/refreshpagearrow_85820.png" width="25px" height="25px" alt="update"></div>
+        </div>
+       <div class="flex-box" id="listForm">
+           <div id="personButton">
+               <button id="newPerson">Add new person</button>
+               <button id="updateStats">Get stats</button>
+           </div>
+           <div id="nameForm"><h2>Persons:</h2></div>
+           <div>
+               <ol id="personsList"></ol>
+           </div>
+        </div>
+    </div>
+</body>
+</html>
