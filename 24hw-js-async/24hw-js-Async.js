@@ -48,3 +48,9 @@ for (var i=0; i<10;i++){
         console.log(index);
     },1000)
 }
+
+for (var i=0; i<10;){
+    setTimeout(function () {
+        console.log(i++);
+    },1000)
+}
