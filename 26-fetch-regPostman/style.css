@@ -1,0 +1,37 @@
+#regForm {
+    text-align: left;
+    background-color: mediumaquamarine;
+    width: fit-content;
+    padding: 1em;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+#loginForm {
+    text-align: left;
+    background-color: cornflowerblue;
+    width: fit-content;
+    padding: 1em;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    width: 100px;
+}
